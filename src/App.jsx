@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import logo from "./assets/logo.png";
-import Login from "./screens/login/login";
+import Flip from "./componentes/flip/index";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -15,7 +15,7 @@ function App() {
             em impacto.
           </p>
         </div>
-        <Login />
+        <Flip/>
       </div>
     </>
   );
